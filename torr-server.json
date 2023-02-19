@@ -1,13 +1,11 @@
 {
   "name": "TorrServer",
-  "plugin_schema": "2",
-  "release": "12.2-RELEASE",
+  "release": "13.1-RELEASE",
   "artifact": "https://github.com/filka96/iocage-plugin-TorrServer.git",
+  "official": false,
   "properties": {
-    "boot": 1,
-    "bpf": 1,
-    "dhcp": 1,
-    "vnet": 1
+    "nat": 1,
+    "nat_forwards": "tcp(8090:8090)"
   },
   "pkgs": [
   ],
@@ -20,6 +18,5 @@
       }
     ]
   },
-  "revision": "0",
-  "official": false
+  "revision": "0"  
 }
