@@ -1,7 +1,7 @@
 {
   "name": "TorrServer",
   "release": "13.1-RELEASE",
-  "artifact": "https://github.com/filka96/iocage-plugin-TorrServer.git",
+  "artifact": "https://github.com/second2u/iocage-plugin-TorrServer.git",
   "official": false,
   "properties": {
     "nat": 1,
@@ -18,5 +18,6 @@
       }
     ]
   },
-  "revision": "0"  
+  "revision": "0",
+  "official": false
 }
