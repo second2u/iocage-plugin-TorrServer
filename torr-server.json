@@ -1,5 +1,6 @@
 {
   "name": "TorrServer",
+  "plugin_schema": "2",
   "release": "13.1-RELEASE",
   "artifact": "https://github.com/second2u/iocage-plugin-TorrServer.git",
   "official": false,
